@@ -1,13 +1,11 @@
 version: '3'
 services:
   frontend:
-    build:
-      context: ../frontend
+    image: hanuta27/abm-tanzania-frontend:test
     ports:
       - "3000:3000"
 
   backend:
-    build:
-      context: ../automator
+    image: hanuta27/abm-tanzania-automator:test
     ports:
       - "8080:8080"
