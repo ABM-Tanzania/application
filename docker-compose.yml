@@ -1,11 +1,11 @@
 version: '3'
 services:
   frontend:
-    image: hanuta27/abm-tanzania-frontend:test
+    image: hanuta27/abm-tanzania-frontend:v1.1
     ports:
       - "3000:3000"
 
   backend:
-    image: hanuta27/abm-tanzania-automator:test
+    image: hanuta27/abm-tanzania-automator:v1.1
     ports:
       - "8080:8080"
