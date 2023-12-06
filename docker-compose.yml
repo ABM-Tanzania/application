@@ -1,13 +1,11 @@
 version: '3'
 services:
   frontend:
-    build:
-      context: ../frontend
+    image: joingl/application-frontend
     ports:
       - "3000:3000"
 
   backend:
-    build:
-      context: ../automator
+    image: joingl/application-backend
     ports:
       - "8080:8080"
