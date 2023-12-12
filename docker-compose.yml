@@ -1,11 +1,11 @@
 version: '3'
 services:
   frontend:
-    image: joingl/application-frontend
+    image: abminnovationdiffusion/frontend
     ports:
       - "3000:3000"
 
   backend:
-    image: joingl/application-backend
+    image: abminnovationdiffusion/backend
     ports:
       - "8080:8080"
